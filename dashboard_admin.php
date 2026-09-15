@@ -42,10 +42,10 @@ $query = mysqli_query($conn, "SELECT * FROM Transaksi_Pengajuan WHERE $where_sta
     <nav class="bg-bca shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center text-white">
-                <div class="font-bold text-lg"><i class="fa-solid fa-vault mr-2"></i> Backoffice Finance</div>
+                <div class="font-bold text-lg"><i class="fa-solid fa-car mr-2"></i> JKL E-Credit Portal | Backoffice Finance</div>
                 <div class="text-sm">
                     Halo, <span class="font-bold mr-4"><?= $_SESSION['username']; ?></span>
-                    <a href="login.php" class="text-red-300 hover:text-white transition"><i class="fa-solid fa-power-off"></i></a>
+                    <a href="logout.php" class="text-red-300 hover:text-white transition"><i class="fa-solid fa-power-off"></i> Logout</a>
                 </div>
             </div>
         </div>
